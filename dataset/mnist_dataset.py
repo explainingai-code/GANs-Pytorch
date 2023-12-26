@@ -53,10 +53,10 @@ class MnistDataset(Dataset):
         im.close()
         
         # Uncomment below 4 lines for colored mnist images
-        a = (im_tensor[0]*random.uniform(0.2, 1.0)).unsqueeze(0)
-        b = (im_tensor[0]*random.uniform(0.2, 1.0)).unsqueeze(0)
-        c = (im_tensor[0]*random.uniform(0.2, 1.0)).unsqueeze(0)
-        im_tensor = torch.cat([a, b, c], dim=0)
+        # a = (im_tensor[0]*random.uniform(0.2, 1.0)).unsqueeze(0)
+        # b = (im_tensor[0]*random.uniform(0.2, 1.0)).unsqueeze(0)
+        # c = (im_tensor[0]*random.uniform(0.2, 1.0)).unsqueeze(0)
+        # im_tensor = torch.cat([a, b, c], dim=0)
         
         # Convert input to -1 to 1 range.
         im_tensor = (2 * im_tensor) - 1

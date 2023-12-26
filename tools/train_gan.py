@@ -15,7 +15,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # and training GAN
 LATENT_DIM = 64
 # For colored mnist change below to 3
-IM_CHANNELS = 3
+IM_CHANNELS = 1
 IM_PATH = 'data/train/images'
 IM_EXT = 'png'
 IM_SIZE = (28, 28)

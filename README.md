@@ -47,8 +47,7 @@ $REPO_ROOT
 
 # Training on colored mnist images
 * Ensure dataset is prepared according to the Data Preparation instructions
-
-* Change the IM_CHANNELS field to 3 in `train_gan.py`
+* Change the `IM_CHANNELS` field to 3 in `train_gan.py`
 * Uncomment lines 56-59 in the `dataset/mnist_dataset.py` file
 
 # Training on custom dataset images
@@ -66,7 +65,6 @@ data
 
 ## Output 
 Outputs will be saved every 50 steps in `samples` directory .
-
 
 During training of GAN the following output will be saved 
 * Latest Model checkpoints for generator and discriminator  in ```$REPO_ROOT``` directory

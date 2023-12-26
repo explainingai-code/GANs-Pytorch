@@ -4,8 +4,12 @@ GAN Implementation in PyTorch
 This repository implements training and inference methods of GAN with just fc layers on MNIST.
 
 [Paper](https://arxiv.org/pdf/1406.2661.pdf) </br>
-[Video on GAN]()
-Output on mnist
+[Video on GAN](https://www.youtube.com/watch?v=h45beyEeM1I) </br>
+
+## Output on MNIST
+<img src="https://github.com/explainingai-code/GANs-Pytorch/assets/144267687/4e1fd994-6ec0-4e21-aeee-6b054e72ddab" width="200">
+<img src="https://github.com/explainingai-code/GANs-Pytorch/assets/144267687/f4bbdafa-a8e2-4a8f-b063-4a4bc00c76fa" width="200">
+
 
 ## Data preparation
 For setting up the mnist dataset:

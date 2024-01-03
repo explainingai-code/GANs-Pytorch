@@ -51,7 +51,8 @@ $REPO_ROOT
 * Uncomment lines 56-59 in the `dataset/mnist_dataset.py` file
 
 # Training on custom dataset images
-* Dump all *.png files(or whatever format images you have) in the path `data/train/images` 
+* Dump all *.png files(or whatever format images you have) in the path `data/train/images`
+* Comment https://github.com/explainingai-code/GANs-Pytorch/blob/main/dataset/mnist_dataset.py#L43
 * Directory structure should be following: 
 ```
 data

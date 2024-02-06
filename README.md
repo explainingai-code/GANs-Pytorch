@@ -5,7 +5,7 @@ This repository implements training and inference methods of [GAN](https://arxiv
 
 ## GAN Explanation & Implementation Video
 <a href="https://www.youtube.com/watch?v=h45beyEeM1I">
-   <img alt="GAN Tutorial" src="https://github.com/explainingai-code/GANs-Pytorch/assets/144267687/ff1be5ad-b216-4d71-87d1-d0358878ef6b"
+   <img alt="GAN Tutorial" src="https://github.com/explainingai-code/GANs-Pytorch/assets/144267687/3fe95fbd-1340-4396-ae92-66c59b3f0013"
    width="300">
 </a>
 

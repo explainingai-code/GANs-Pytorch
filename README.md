@@ -1,10 +1,14 @@
 GAN Implementation in PyTorch
 ========
 
-This repository implements training and inference methods of GAN with just fc layers on MNIST.
+This repository implements training and inference methods of [GAN](https://arxiv.org/pdf/1406.2661.pdf) with just fc layers on MNIST.
 
-[Paper](https://arxiv.org/pdf/1406.2661.pdf) </br>
-[Video on GAN](https://www.youtube.com/watch?v=h45beyEeM1I) </br>
+## GAN Explanation & Implementation Video
+<a href="https://www.youtube.com/watch?v=h45beyEeM1I">
+   <img alt="GAN Tutorial" src="https://github.com/explainingai-code/GANs-Pytorch/assets/144267687/ff1be5ad-b216-4d71-87d1-d0358878ef6b"
+   width="300">
+</a>
+
 
 ## Output on MNIST
 <img src="https://github.com/explainingai-code/GANs-Pytorch/assets/144267687/4e1fd994-6ec0-4e21-aeee-6b054e72ddab" width="200">
@@ -74,7 +78,16 @@ During inference every 50 steps the following output will be saved
 * Sampled image grid for in ```samples/*.png``` 
 
 
-
-
+## Citations
+```
+@misc{goodfellow2014generative,
+      title={Generative Adversarial Networks}, 
+      author={Ian J. Goodfellow and Jean Pouget-Abadie and Mehdi Mirza and Bing Xu and David Warde-Farley and Sherjil Ozair and Aaron Courville and Yoshua Bengio},
+      year={2014},
+      eprint={1406.2661},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+```
 
 
